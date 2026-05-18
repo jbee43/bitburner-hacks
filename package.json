@@ -1,0 +1,28 @@
+{
+    "name": "jbee43-bitburner-scripts",
+    "version": "1.0.0",
+    "description": "TypeScript automation suite for the Bitburner game",
+    "license": "MIT",
+    "engines": {
+        "node": ">=22.0.0"
+    },
+    "scripts": {
+        "dev": "viteburner",
+        "format": "prettier --write .",
+        "lint": "eslint .",
+        "lint:fix": "eslint . --fix",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@eslint/js": "10.0.1",
+        "@types/node": "24.12.3",
+        "eslint": "10.3.0",
+        "eslint-config-prettier": "10.1.8",
+        "globals": "17.6.0",
+        "prettier": "3.8.3",
+        "typescript": "5.9.3",
+        "typescript-eslint": "8.59.3",
+        "vite": "4.5.5",
+        "viteburner": "0.5.3"
+    }
+}

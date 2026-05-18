@@ -1,0 +1,136 @@
+{
+    "slowMo": false,
+    "slowMoMultiplier": 10,
+    "walletFreeze": true,
+    "logs": {
+        "context": true,
+        "date": false,
+        "debug": false,
+        "milliseconds": false,
+        "pid": false,
+        "terminal": true
+    },
+    "overview": {
+        "bladeburner": true,
+        "contracts": true,
+        "corporation": true,
+        "entropy": true,
+        "gang": true,
+        "hacknet": true,
+        "karma": true,
+        "kills": true,
+        "scripts": true
+    },
+    "backdoor": {
+        "init": true,
+        "intervalMs": 4000,
+        "manualHack": true
+    },
+    "bladeburner": {
+        "init": true,
+        "inciteViolence": false
+    },
+    "corporation": {
+        "init": false,
+        "fundsMax": -1,
+        "fundsPercent": 100,
+        "intervalMs": 4000,
+        "name": "Stinky Bizz",
+        "upgradeWarehouse": false
+    },
+    "gang": {
+        "init": true,
+        "intervalMs": 2000,
+        "ascend": true,
+        "clash": true,
+        "faction": "Slum Snakes",
+        "holdTerritory": true,
+        "nationality": "GB",
+        "recruit": true,
+        "walletMax": -1,
+        "walletPercent": 100
+    },
+    "grafting": {
+        "init": false,
+        "intervalMs": 4000,
+        "charisma": false,
+        "combat": false,
+        "companyRep": true,
+        "crime": true,
+        "factionRep": true,
+        "hack": true,
+        "hacknet": true,
+        "walletMax": -1,
+        "walletPercent": 100
+    },
+    "hacking": {
+        "init": true,
+        "homeRamSpare": 1.6,
+        "intervalMs": 1000,
+        "stanek": true,
+        "targetCount": 1,
+        "targetMoneyPercent": 0
+    },
+    "hacknet": {
+        "init": true,
+        "intervalMs": 2000,
+        "hashSpend": {
+            "sellForMoney": false,
+            "sellForCorpFunds": false,
+            "reduceSecurity": false,
+            "increaseMoney": false,
+            "improveStudy": false,
+            "improveGym": false,
+            "corpResearch": false,
+            "bladeburnerRank": true,
+            "bladeburnerSp": true,
+            "codingContract": false,
+            "companyFavor": true
+        },
+        "useRam": false,
+        "walletMax": -1,
+        "walletPercent": 100
+    },
+    "nuker": {
+        "init": true,
+        "intervalMs": 4000,
+        "openAllPorts": true
+    },
+    "servers": {
+        "init": true,
+        "intervalMs": 4000,
+        "walletMax": -1,
+        "walletPercent": 100
+    },
+    "singularity": {
+        "init": true,
+        "intervalMs": 4000,
+        "augment": true,
+        "combat": true,
+        "focus": false,
+        "getBusy": true,
+        "killWorldDaemon": true,
+        "nextBitnode": 12,
+        "upgradeHomeCores": false,
+        "upgradeHomeRam": false
+    },
+    "sleeves": {
+        "init": true,
+        "intervalMs": 4000,
+        "assign": false,
+        "augment": true,
+        "shockMax": 97,
+        "syncMin": 100,
+        "walletMax": -1,
+        "walletPercent": 100
+    },
+    "stanek": {
+        "init": false,
+        "intervalMs": 4000
+    },
+    "stock": {
+        "init": false,
+        "walletMax": -1,
+        "walletPercent": 100
+    }
+}
